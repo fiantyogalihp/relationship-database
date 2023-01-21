@@ -63,7 +63,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/fiantyogalihp/relationship-database/blob/main/images/erd.png?raw=true)
 
 Tugas database relational dengan 3 table berelasi tentang sistem informasi sekolah. Untuk kesempatan kali ini saya akan menggunakan relational database tentang absensi sekolah.
 
@@ -71,7 +71,7 @@ Tugas database relational dengan 3 table berelasi tentang sistem informasi sekol
 
 ### Built With
 
-- [![MySQL][mysql]][https://www.mysql.com/]
+* [![MySQL][mysql]][https://www.mysql.com/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
