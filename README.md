@@ -19,7 +19,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/fiantyogp]
+<!-- [![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/fiantyogp] -->
 
 <!-- PROJECT LOGO -->
 <br />
@@ -45,9 +45,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -63,15 +60,13 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/fiantyogalihp/relationship-database/blob/main/images/erd.png?raw=true)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://github.com/fiantyogalihp/relationship-database/blob/main/images/erd.png?raw=true) -->
+
+<div align="center">
+  <img src="images/erd.png" alt="Logo">
+</div>
 
 Tugas database relational dengan 3 table berelasi tentang sistem informasi sekolah. Untuk kesempatan kali ini saya akan menggunakan relational database tentang absensi sekolah.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Built With
-
-* [![MySQL][mysql]][https://www.mysql.com/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
