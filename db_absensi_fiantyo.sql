@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 21, 2023 at 04:51 PM
+-- Generation Time: Jan 21, 2023 at 05:58 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.24
 
@@ -35,6 +35,13 @@ CREATE TABLE `absensi` (
   `tanggal` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `absensi`
+--
+
+INSERT INTO `absensi` (`id`, `nis_siswa`, `id_jurusan`, `semester`, `tanggal`) VALUES
+(2, 1, 1, 5, '2023-01-21');
+
 -- --------------------------------------------------------
 
 --
@@ -45,6 +52,13 @@ CREATE TABLE `jurusan` (
   `id` int(11) NOT NULL,
   `nama_jurusan` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `jurusan`
+--
+
+INSERT INTO `jurusan` (`id`, `nama_jurusan`) VALUES
+(1, 'RPL');
 
 -- --------------------------------------------------------
 
@@ -57,6 +71,13 @@ CREATE TABLE `siswa` (
   `nama` varchar(255) NOT NULL,
   `status` varchar(25) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `siswa`
+--
+
+INSERT INTO `siswa` (`nis`, `nama`, `status`) VALUES
+(1, 'fiantyo', 'aktif');
 
 --
 -- Indexes for dumped tables
@@ -90,19 +111,19 @@ ALTER TABLE `siswa`
 -- AUTO_INCREMENT for table `absensi`
 --
 ALTER TABLE `absensi`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `jurusan`
 --
 ALTER TABLE `jurusan`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `siswa`
 --
 ALTER TABLE `siswa`
-  MODIFY `nis` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `nis` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Constraints for dumped tables
